@@ -1,5 +1,6 @@
-1. Clone this repo in /opt directory.
+# Guide to setup docker environment
 
+1. Clone this repo in /opt directory.
 2. Assuming, docker engine is installed, if not follow these steps:
 
 # Install docker engine
@@ -25,5 +26,4 @@ docker-compose up -d as root user.
 ```
 
 4. Make sure these ports are open in firewall: 80, 4001, 5001, 8080
-
 5. In index.html file under html folder, change in line 15: Update the url accordigly.
