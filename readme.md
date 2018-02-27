@@ -21,7 +21,7 @@ apt-get install python-pip -y
 export LC_ALL=C   # If Server Throws Exception
 pip install docker-compose
 ```
-4. Under /opt directory run:
+4. Under /opt/demo directory run:
 ```
 docker-compose up -d
 ```
