@@ -1,7 +1,8 @@
 # Guide to setup docker environment
 
-1. Clone this repo in /opt directory.
-2. Assuming, docker engine is installed, if not follow these steps:
+1. Login as root user by doing sudo bash or use sudo before each command
+2. Clone this repo in /opt directory.
+3. Assuming, docker engine is installed, if not follow these steps:
 
 # Install docker engine
 ```
@@ -20,10 +21,10 @@ apt-get install python-pip -y
 export LC_ALL=C   # If Server Throws Exception
 pip install docker-compose
 ```
-3. Under /opt directory run:
+4. Under /opt directory run:
 ```
 docker-compose up -d
 ```
 
-4. Make sure these ports are open in firewall: 80, 4001, 5001, 8080
-5. In index.html file under html folder, change in line 15: Update the url accordigly.
+5. Make sure these ports are open in firewall: 80, 4001, 5001, 8080
+6. In index.html file under html folder, change in line 15: Update the url accordigly.
